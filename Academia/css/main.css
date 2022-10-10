@@ -101,3 +101,49 @@ main{
     background-position: 96%;
     border: 1px solid #d6d6d6;
 }
+
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    z-index: 9;
+    position: absolute;
+    background-image: url('../img/arrowE.png');
+    top: 35%;
+    left: 1%;
+
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    z-index: 9;
+    position: absolute;
+    background-image: url('../img/arrowD.png');
+    top: 35%;
+    right: 1%;
+
+}
+
+.slider-principal{
+    width: 100%!important;
+}
+
+ul.slick-dots li {
+    display: inline-block;
+    font-size: 0px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    
+}
+
+ul.slick-dots li.slick.active{
+    background-color: rgb(245, 193, 82);
+}
