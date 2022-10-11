@@ -4,6 +4,28 @@
     padding: 1.5625rem;
 }
 
+.titulo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 23px 0;
+}
+
+.titulo-title {
+    font-family: Gotham-Black,sans-serif;
+    font-size: 30px;
+    color: #1c1c1c;
+}
+
+
+.titulo-title {
+    text-align: center;
+    line-height: 36px;
+}
+
+
 .plano {
     background-color: hsla(0, 5%, 75%, 0.945);
     border-radius: 10px;
