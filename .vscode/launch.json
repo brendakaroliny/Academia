@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\Brenda Karoliny\\Desktop\\Academia\\Academia\\index.html"
+            "file": "C:\\Users\\Brenda\\Desktop\\brenda\\Academia\\Academia\\index.html"
         }
     ]
 }
