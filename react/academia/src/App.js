@@ -12,10 +12,12 @@ class App extends Component {
     return (
       <BrowserRouter>
           <div className="App">
-             <Cabecalho/>
-             <Site/>  
+            
+          <Cabecalho/>
 
-             
+          <Site/>
+
+           
           
           
           </div>
