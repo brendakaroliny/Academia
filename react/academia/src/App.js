@@ -3,6 +3,7 @@ import { BrowserRouter, Router } from 'react-router-dom'
 
 import Site from './Site';
 import Cabecalho from './Componentes/Cabecalho';
+import Main from './Componentes/Main';
 import formulario from './Componentes/formulario';
 import modalidade from './Componentes/modalidade';
 
@@ -14,6 +15,7 @@ class App extends Component {
           <div className="App">
             
           <Cabecalho/>
+          <Main/>
 
           <Site/>
 
