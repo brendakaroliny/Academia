@@ -1,4 +1,4 @@
-import React,{ Component } from 'react';
+import React from "react";
 
 const formulario = props=>{
 
@@ -7,11 +7,11 @@ const formulario = props=>{
              
  
 
-    <div className='col-100'>
-        <div className='header'>
-            <h2>Seja um Franquiado</h2>
-        </div>
-        <form id='form' className='form'>
+           <div className='col-100'>
+           <div className='header'>
+              <h2>Seja um Franquiado</h2>
+            </div>
+            <form id='form' className='form'>
             <div className='form-control'>
                 <label for='username'>Nome Completo</label>
                 <input type='text' 
@@ -101,13 +101,13 @@ const formulario = props=>{
             </div>
 
             <button type='submit'>Enviar</button>
-        </form>
-    </div>  
-    <script
-        src='https://kit.fontawesome.com/6bd86e2ead.js' crossorigin='anonymous'
-    ></script>
-    <script src='./js/formulario.js'></script>
-        </div>
+          </form>
+          </div>  
+           <script
+             src='https://kit.fontawesome.com/6bd86e2ead.js' crossorigin='anonymous'
+            ></script>
+              <script src='./js/formulario.js'></script>
+       </div>
     )
 }
 
