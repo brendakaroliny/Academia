@@ -5,9 +5,10 @@ import Site from './Site';
 import Cabecalho from './Componentes/Cabecalho';
 import Main from './Componentes/Main';
 import Modalidade from './Componentes/Modalidade';
-import Formulario from './Componentes/Formulario';
+import Formulario from './Componentes/Unidade';
 import Planos from './Componentes/Planos';
 import Rodape from './Componentes/Rodape';
+import Unidade from './Componentes/Unidade';
 
 
 class App extends Component {
@@ -19,15 +20,11 @@ class App extends Component {
             
           <Cabecalho/>
           <Main/>
-          <Modalidade/>
-          <Formulario/>
+         <Unidade/>
+         <Modalidade/>
           <Planos/>
           <Rodape/>
-          
-
-           
-          
-          
+                  
           </div>
       </BrowserRouter>
       

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Formulario = props=>{
+const Unidade = props=>{
 
     return(
         <div>
@@ -71,4 +71,4 @@ const Formulario = props=>{
     )
 }
 
-export default Formulario
+export default Unidade
