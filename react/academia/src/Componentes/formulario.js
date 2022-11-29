@@ -1,114 +1,74 @@
 import React from "react";
 
-const formulario = props=>{
+const Formulario = props=>{
 
     return(
         <div>
+
+<div id='portfolio' className='container-fluid text-center bg-grey'>
+  <h2>Portfolio</h2><br />
+  <h4>What we have created</h4>
+  <div className='row text-center '>
+    <div className='col-sm-4'>
+      <div className='thumbnail'>
+        <img src='paris.jpg' alt='Paris' width='400' height='300'/>
+        <p><strong>Paris</strong></p>
+        <p>Yes, we built Paris</p>
+      </div>
+    </div>
+    <div className='col-sm-4'>
+      <div className='thumbnail'>
+        <img src='newyork.jpg' alt='New York' width='400' height='300'/>
+        <p><strong>New York</strong></p>
+        <p>We built New York</p>
+      </div>
+    </div>
+    <div className='col-sm-4'>
+      <div className='thumbnail'>
+        <img src='sanfran.jpg' alt='San Francisco' width='400' height='300'/>
+        <p><strong>San Francisco</strong></p>
+        <p>Yes, San Fran is ours</p>
+      </div>
+    </div>
+  </div><br />
+  
+  <h2>What our customers say</h2>
+  <div id='myCarousel' className='carousel slide text-center' data-ride='carousel'>
+ 
+    <ol className='carousel-indicators'>
+      <li data-target='#myCarousel' data-slide-to='0' className='active'></li>
+      <li data-target='#myCarousel' data-slide-to='1'></li>
+      <li data-target='#myCarousel' data-slide-to='2'></li>
+    </ol>
+
+   
+    <div className='carousel-inner' role='listbox'>
+      <div className='item active'>
+        <h4>'This company is the best. I am so happy with the result!'<br /><span>Michael Roe, Vice President, Comment Box</span></h4>
+      </div>
+      <div className='item'>
+        <h4>'One word... WOW!!'<br /><span>John Doe, Salesman, Rep Inc</span></h4>
+      </div>
+      <div className='item'>
+        <h4>'Could I... BE any more happy with this company?'<br /><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+      </div>
+    </div>
+
+    
+    <a className='left carousel-control' href='#myCarousel' role='button' data-slide='prev'>
+      <span className='glyphicon glyphicon-chevron-left' aria-hidden='true'></span>
+      <span className='sr-only'>Previous</span>
+    </a>
+    <a className='right carousel-control' href='#myCarousel' role='button' data-slide='next'>
+      <span className='glyphicon glyphicon-chevron-right' aria-hidden='true'></span>
+      <span className='sr-only'>Next</span>
+    </a>
+  </div>
+</div>
              
  
-
-           <div className='col-100'>
-           <div className='header'>
-              <h2>Seja um Franquiado</h2>
-            </div>
-            <form id='form' className='form'>
-            <div className='form-control'>
-                <label for='username'>Nome Completo</label>
-                <input type='text' 
-                id='username'
-                placeholder='Digite seu Nome completo'
-                />
-                <i className='fas fa-exclamation-circle'></i>
-                <i className='fas fa-check-circle'></i>
-                <small>Erro</small>
-            </div>
-
-            <div className='form-control'>
-                <label for='email'>E-mail</label>
-                <input type='text' 
-                id='email'
-                placeholder='Digite seu E-mail'
-                />
-                <i className='fas fa-exclamation-circle'></i>
-                <i className='fas fa-check-circle'></i>
-                <small>Erro</small>
-            </div>
-
-            <div className='form-control'>
-                <label for='celular'>Celular</label>
-                <input type='text' 
-                id='celular'
-                placeholder='Digite o número do seu celular'
-                />
-                <i className='fas fa-exclamation-circle'></i>
-                <i className='fas fa-check-circle'></i>
-                <small>Erro</small>
-            </div>
-
-            <div className='form-control'>
-                <label for='telefone'>Telefone</label>
-                <input type='text' 
-                id='telefone'
-                placeholder='Digite seu Telefone'
-                />
-                <i className='fas fa-exclamation-circle'></i>
-                <i className='fas fa-check-circle'></i>
-                <small>Erro</small>
-            </div>
-
-            <div className='form-control'>
-                <label for='cpf'>CPF</label>
-                <input type='text' 
-                id='cpf'
-                placeholder='Digite o seu CPF'
-                />
-                <i className='fas fa-exclamation-circle'></i>
-                <i className='fas fa-check-circle'></i>
-                <small>Erro</small>
-            </div>
-
-            <div className='form-control'>
-                <label for='rg'>RG</label>
-                <input type='text' 
-                id='rg'
-                placeholder='Digite o seu RG'
-                />
-                <i className='fas fa-exclamation-circle'></i>
-                <i className='fas fa-check-circle'></i>
-                <small>Erro</small>
-            </div>
-
-            <div className='form-control'>
-                <label for='capital'>Faixa do Capital</label>
-                <input type='text' 
-                id='capital'
-                placeholder='Digite a faixa do seu capital'
-                />
-                <i className='fas fa-exclamation-circle'></i>
-                <i className='fas fa-check-circle'></i>
-                <small>Erro</small>
-            </div>
-
-            <div className='form-control'>
-                <label for='local'>Onde Deseja Abrir a Franquia?</label>
-                <input type='text' 
-                id='local'
-                placeholder='Digite o local da Franquia'
-                />
-                <i className='fas fa-exclamation-circle'></i>
-                <i className='fas fa-check-circle'></i>
-                <small>Erro</small>
-            </div>
-
-            <button type='submit'>Enviar</button>
-          </form>
-          </div>  
-           <script
-             src='https://kit.fontawesome.com/6bd86e2ead.js' crossorigin='anonymous'
-            ></script>
-              <script src='./js/formulario.js'></script>
        </div>
     )
 }
 
-export default formulario
+export default Formulario

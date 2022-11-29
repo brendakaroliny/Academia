@@ -5,7 +5,9 @@ import Site from './Site';
 import Cabecalho from './Componentes/Cabecalho';
 import Main from './Componentes/Main';
 import Modalidade from './Componentes/Modalidade';
-import formulario from './Componentes/formulario';
+import Formulario from './Componentes/Formulario';
+import Planos from './Componentes/Planos';
+import Rodape from './Componentes/Rodape';
 
 
 class App extends Component {
@@ -18,7 +20,9 @@ class App extends Component {
           <Cabecalho/>
           <Main/>
           <Modalidade/>
-          <Site/>
+          <Formulario/>
+          <Planos/>
+          <Rodape/>
           
 
            
