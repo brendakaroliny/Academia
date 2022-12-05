@@ -1,14 +1,14 @@
-import React,{ Component } from 'react';
-import { BrowserRouter, Router } from 'react-router-dom'
+import React, { Component } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom'
 
-import Site from './Site';
-import Cabecalho from './Componentes/Cabecalho';
-import Main from './Componentes/Main';
-import Modalidade from './Componentes/Modalidade';
-import Formulario from './Componentes/Unidade';
-import Planos from './Componentes/Planos';
-import Rodape from './Componentes/Rodape';
-import Unidade from './Componentes/Unidade';
+
+import Cabecalho from './components/Cabecalho';
+import Main from './components/Main';
+import Modalidade from './components/Modalidade';
+
+import Planos from './components/Planos';
+import Rodape from './components/Rodape';
+import Unidade from './components/Unidade';
 
 
 class App extends Component {
