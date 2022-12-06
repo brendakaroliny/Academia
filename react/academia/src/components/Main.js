@@ -5,7 +5,7 @@ const Main = props=>{
        <div>
 
 <div className='jumbotron text-center'>
-  <h1>Company</h1> 
+  <h1>Beekry</h1> 
   <p>We specialize in blablabla</p> 
   <form>
     <div className='input-group'>
