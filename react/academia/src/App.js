@@ -55,7 +55,7 @@ function App() {
 
           <div>
 
-          <div id='contact' className='container-fluid bg-grey'>
+          <div id='formulario' className='container-fluid bg-grey'>
   <h2 className='text-center'>Franquia</h2>
   <div className='row'>
    

@@ -9,9 +9,9 @@ const Main = props=>{
   <p>A sua melhor opção na hora de levar uma vida + saudável</p> 
   <form>
     <div className='input-group'>
-      <input type='email' className='form-control' size='50' placeholder='Email Address' required/>
+      <input type='email' className='form-control' size='50' placeholder='Pesquisar' required/>
       <div className='input-group-btn'>
-        <button type='button' className='btn btn-danger'>Subscribe</button>
+        <button type='button' className='btn btn-danger'>Pesquisar</button>
       </div>
     </div>
   </form>
