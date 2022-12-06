@@ -6,7 +6,7 @@ const Main = props=>{
 
 <div className='jumbotron text-center'>
   <h1>Beekry</h1> 
-  <p>We specialize in blablabla</p> 
+  <p>A sua melhor opção na hora de levar uma vida + saudável</p> 
   <form>
     <div className='input-group'>
       <input type='email' className='form-control' size='50' placeholder='Email Address' required/>
@@ -18,33 +18,20 @@ const Main = props=>{
 </div>
 
 
-<div id='about' className='container-fluid'>
+<div id='home' className='container-fluid'>
   <div className='row'>
     <div className='col-sm-8'>
-      <h2>About Company Page</h2><br />
-      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br />
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <br /><button className='btn btn-default btn-lg'>Get in Touch</button>
+      <h2>O QUE FAZ A BEEKRY TÃO ESPECIAL?</h2><br />
+      <h4>Somos a rede de academias com o melhor custo-benefício do país. Nossas unidades oferecem uma equipe dedicada a ajudar você no que for preciso e transformar a sua meta em grandes resultados.</h4><br />
+      <p>Você vai treinar em academias amplas e modernas com equipamentos de última geração, grade de aulas com ginástica, dança e lutas (zumba, jump, funcional, pilates, jiu-jitsu, muay thai, entre outras), que ao longo do ano é renovada com modalidades sazonais, e professores à sua disposição para instruir o seu treino. Temos orgulho em oferecer um serviço premium por um preço acessível, afinal o fácil acesso à atividade física pode mudar a vida de qualquer indivíduo. Entre para o time da BlueFit e descubra a academia que você sempre quis!</p>
+      <br /><button className='btn btn-default btn-lg'>Saiba Mais</button>
     </div>
     <div className='col-sm-4'>
-      <span className='glyphicon glyphicon-signal logo'></span>
+      <span className='glyphicon glyphicon-globe logo'></span>
     </div>
   </div>
 </div>
 
-<div className='container-fluid bg-grey'>
-  <div className='row'>
-    <div className='col-sm-4'>
-      <span className='glyphicon glyphicon-globe logo '></span>
-    </div>
-    <div className='col-sm-8'>
-      <h2>Our Values</h2><br />
-      <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br />
-      <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-  </div>
-</div>
 
        </div>
     )
