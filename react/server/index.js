@@ -7,19 +7,25 @@ const db = mysql.createPool({
     host: "localhost",
     user: "root",
     password: "12345678",
-    database: "crudgame",
+    database: "academia",
 });
 
 app.use(cors());
 app.use(express.json());
 
 app.post("/register",(req,res)=>{
-    const{nome} = req.body;
-    const{cost} = req.body;
-    const{category} = req.body;
+    const{name} = req.body;
+    const{email} = req.body;
+    const{celualr} = req.body;
+    const{telefone} = req.body;
+    const{cpf} = req.body;
+    const{rg} = req.body;
+    const{capital} = req.body;
+    const{local} = req.body;
 
-   let SQL =  "INSERT INTO `games` (`nome`, `cost`, `category`) VALUES (?, ?, ?)";
-   db.query(SQL,[nome,cost,category],(err,result) =>{
+   let SQL =  " INSERT INTO `formulario` (`nome`, `email`, `celualr`, `telefone`, `cpf`, `rg`, `capital`, `local`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+  
+   db.query(SQL,[name,email,celualr,telefone,cpf,rg,capital,local],(err,result) =>{
     console.log(err);
    })
 })
