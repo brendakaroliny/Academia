@@ -231,7 +231,7 @@ body {
   border-color: red;
 }
 
-.form-control.error i.fa-exclamation-circle{
+.form-control.error {
   color: red;
   visibility: visible;
 }
@@ -247,7 +247,7 @@ color: red;
   border-color: lime;
 }
 
-.form-control.success i.fa-check-circle{
+.form-control.success {
   color: lime;
   visibility: visible;
 }
