@@ -72,7 +72,7 @@ function App() {
           <input className='form-control' id='email' name='email' placeholder='Email' type='email'
            onChange={handleChangeValues}
             required/>
-          <small>Erro</small>
+         
         </div>
       </div>
 
@@ -88,7 +88,7 @@ function App() {
           <input className='form-control' id='telefone' name='telefone' placeholder='Tel' type='telefone'
            onChange={handleChangeValues}
             required/>
-          <small>Erro</small>
+          
         </div>
       </div>
 
@@ -104,7 +104,7 @@ function App() {
           <input className='form-control' id='rg' name='rg' placeholder='RG' type='telefone' 
            onChange={handleChangeValues}
            required/>
-          <small>Erro</small>
+         
         </div>
       </div>
       <div className='row'>
