@@ -29,7 +29,7 @@ function App() {
   
         name: values.name,
         email: values.email,
-        celular: values.celular,
+        celualr: values.celualr,
         telefone: values.telefone,
         cpf: values.cpf,
         rg: values.rg,
@@ -80,8 +80,8 @@ function App() {
 
       <div className='row'>
         <div className='col-sm-6 form-group'>
-        <label for='celular'>Celular:</label>
-          <input className='form-control' id='celular' name='celular' placeholder='Cel' type='text'
+        <label for='celualr'>Celular:</label>
+          <input className='form-control' id='celualr' name='celualr' placeholder='Cel' type='text'
            onChange={handleChangeValues}
             required/>
         </div>
