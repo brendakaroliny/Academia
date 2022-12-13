@@ -10,18 +10,21 @@ const Modalidade = props=>{
   <br />
   <div className='row '>
     <div className='col-sm-4'>
-      <span className='glyphicon glyphicon-off logo-small'></span>
-      <h4>Musculação</h4>
+    <img src='musculacao.png' alt='Foto da unidade do Riacho Fundo I' width='400' height='300'/>
+     
+      <h4 >Musculação  <span className='glyphicon glyphicon-off'></span></h4>
       <p>É o lugar onde você aperfeiçoa seu preparo físico, aumenta sua força, resistência e tônus muscular. Essa atividade é fundamental para melhorar seu desempenho em outras modalidades, como lutas, esportes e ginástica, por exemplo.</p>
     </div>
     <div className='col-sm-4'>
-      <span className='glyphicon glyphicon-music logo-small'></span>
-      <h4>Dança</h4>
+      
+      <img src='dança.png' alt='Foto da unidade do Riacho Fundo I' width='400' height='300'/>
+      <h4>Dança <span className='glyphicon glyphicon-music '></span></h4>
       <p>Aula de dança com coreografias de ritmos nacionais. As aulas são muito divertidas e usam como seleção musical os sucessos atuais. Conheça, vale muito a pena!</p>
     </div>
     <div className='col-sm-4'>
-      <span className='glyphicon glyphicon-user logo-small'></span>
-      <h4>Luta</h4>
+      
+      <img src='luta.png' alt='Foto da unidade do Riacho Fundo I' width='400' height='300'/>
+      <h4>Luta <span className='glyphicon glyphicon-user '></span></h4>
       <p>As lutas são caracterizadas pelo uso de técnicas de agarramento, derrubadas e golpes que podem ser realizadas por dois ou mais competidores. Existem diferentes estilos de lutas e elas podem variar conforme as regras.</p>
     </div>
   </div>

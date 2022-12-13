@@ -20,7 +20,7 @@ const Cabecalho = props=>{
         <li><a href='#modalidade'>Modalidades</a></li>
         <li><a href='#unidades'>Unidades</a></li>
         <li><a href='#plano'>Planos</a></li>
-        <li><a href='#formulario'>Formulario</a></li>
+        <li><a href='#formulario'>Franquiado</a></li>
       </ul>
     </div>
   </div>

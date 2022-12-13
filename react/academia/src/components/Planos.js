@@ -25,7 +25,7 @@ const Planos = props=>{
           <p> Taxa zero</p>
         </div>
         <div className='panel-footer'>
-          <h3>$119,99</h3>
+          <h3>R$119,99</h3>
           <h4>Mensais</h4>
           <button className='btn btn-lg'>Escolher Este</button>
         </div>
@@ -44,7 +44,7 @@ const Planos = props=>{
           <p> Taxa zero</p>
         </div>
         <div className='panel-footer'>
-          <h3>$129,99</h3>
+          <h3>R$129,99</h3>
           <h4>Mensais</h4>
           <button className='btn btn-lg'>Escolher Este</button>
         </div>
@@ -63,7 +63,7 @@ const Planos = props=>{
           <p> Sem restrição de horários</p>
         </div>
         <div className='panel-footer'>
-          <h3>$149,99</h3>
+          <h3>R$149,99</h3>
           <h4>Mensais</h4>
           <button className='btn btn-lg'>Escolher Este</button>
         </div>
