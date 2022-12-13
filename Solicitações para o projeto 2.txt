@@ -1,0 +1,23 @@
+HTML - sim  
+CSS - sim 
+JavaScript (servidor) - sim 
+React - sim
+
+Utilizem novos conceitos de acessibilidade:
+
+Recomendação 1.3 – Utilizar corretamente os níveis de cabeçalho
+Recomendação 1.5 – Fornecer âncoras para ir direto a um bloco de conteúdo
+Recomendação 1.8 – Dividir as áreas de informação
+Recomendação 3.3 – Oferecer um título descritivo e informativo à página
+Recomendação 3.4 – Informar o usuário sobre sua localização na página
+Recomendação 3.6 – Fornecer alternativa em texto para as imagens do sítio
+
+formulário conectado ao banco de dados - sim
+
+//npm install -g nodemon - sim
+//npm install --save express - sim 
+//npm install --save sequelize - não
+//npm install --save mysql2 - sim 
+//npm install --save express-handlebars - sim 
+//npm install --save body-parser -sim 
+//npm install --save axios - acrescentado 
