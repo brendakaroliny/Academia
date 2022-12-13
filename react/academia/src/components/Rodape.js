@@ -17,7 +17,7 @@ import React from 'react';
   <a href='#myPage' title='To Top'>
     <span className='glyphicon glyphicon-chevron-up'></span>
   </a>
-  <p>Bootstrap Theme Made By <a href='https://www.w3schools.com' title='Entre en contato conosco'>www.w3schools.com</a></p>
+  <p>Entre em contato cosnosco! <a href='https://www.academis.com' title='Entre en contato conosco'>www.academia.com</a></p>
 </footer>
 
 

@@ -37,7 +37,9 @@ function App() {
         local: values.local,
   
       }).then((response)=>{
+        alert.alert("Cadastro realizado com sucesso! Favor aguardar o nosso contato");
         console.log(response);
+        
       });
      
      
